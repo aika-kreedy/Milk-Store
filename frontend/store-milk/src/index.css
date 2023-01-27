@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+body{
+margin:0px;
+background-color: rgb(246, 206, 221);
+}
+
+.header-page{
+  background-color: whitesmoke;
+  height: 75px;
+  width: 100%;
+ text-align: center;
+margin-top: -30px;
+  
+}
+
+.header-text{
+  font-family: 'Kanit', sans-serif;
+  align-items: center;
+  font-weight: 100;
+  font-size: 34px;
+  color:rgb(246, 152, 219);
+  letter-spacing: 3px;
+  padding-top:14px ;
+   
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ margin-top: 50px;
+  margin: 50px;
+  text-align: center;
+  font-family: arial;
+ 
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  
+  
+}
+.one-card{
+  background-color: whitesmoke;
+  border:1px solid rgb(180, 175, 175);
+  margin-top: 25px;
+  border-radius: 7px;
+}
+
+h3{
+margin-top: 50px;
+margin-left: 40px;
+}
+h4{
+  color: gray;
+}
+h5{
+  color: orange;
+}
+.pagination {
+  
+
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > span{
+ 
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.search{
+  height: 15px;
+}
+.search__input{
+  height: 25px;
+  width:270px;
+  margin: 20px;
+  margin-right: 3px;
+  border-radius: 12px;
+  
+}
+.search__button{
+  height: 25px;
+border-radius: 20px; 
+border: solid rgb(150, 145, 145);
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+img{
+  align-items: center;
+  width:80%;
+  margin-top: 20px;
+  border-radius: 5px 5px 0 0;
+  background-color: whitesmoke;
+}
